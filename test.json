@@ -1,0 +1,7 @@
+{
+  "name": "My Fungible Token",
+  "symbol": "MFT",
+  "description": "Example fungible token with custom metadata.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmUwUm1NGKjLfr67UH2ghZLXNJaUEBUKdoLix9A7zX36qq",
+  "attributes": []
+}
