@@ -1,7 +1,33 @@
 {
-  "name": "My Fungible Token",
-  "symbol": "MFT",
-  "description": "Example fungible token with custom metadata.",
+  "name": "My Awesome NFT",
+  "symbol": "MINT",
+  "description": "A truly awesome NFT, showing how metadata works on Solana.",
+  "seller_fee_basis_points": 500,
   "image": "https://gateway.pinata.cloud/ipfs/QmUwUm1NGKjLfr67UH2ghZLXNJaUEBUKdoLix9A7zX36qq",
-  "attributes": []
+  "external_url": "https://example.com",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Character",
+      "value": "Robot"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.pinata.cloud/ipfs/QmUwUm1NGKjLfr67UH2ghZLXNJaUEBUKdoLix9A7zX36qq",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "yourWalletAddressHere",
+        "share": 100
+      }
+    ]
+  }
 }
